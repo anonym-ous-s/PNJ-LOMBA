@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration:none;
+    
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BANBAN — Landing Page (Static)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-sans bg-white text-gray-800">
+    <!-- Wrap to limit width similar to design -->
+    <header class="p-4">
+      <img src="/assets/logo.png" alt="BANBAN" class="w-36" />
+    </header>
+
+    <!-- Hero -->
+    <section class="hero bg-hero-blue text-white">
+      <div class="container mx-auto px-6 py-12 md:py-20 flex flex-col md:flex-row items-center gap-8">
+        <div class="left md:w-1/2">
+          <h1 class="title font-extrabold text-3xl md:text-5xl leading-tight mb-4">
+            Bantu Belajar<br />Bantu Bersosial
+          </h1>
+          <p class="subtitle text-lg md:text-xl mb-6 text-white/90">Hallo, Ready to Learn and earn more points today?</p>
+
+          <div class="flex gap-4 flex-wrap">
+            <a href="#" class="btn btn-outline">Pelajari Lebih Lanjut</a>
+            <a href="#" class="btn btn-primary">Mulai Belajar</a>
+          </div>
+        </div>
+
+        <div class="right md:w-1/2 flex justify-center">
+          <div class="image-wrap relative">
+            
+            <img src="/assets/graduation.png" alt="Graduation" class="hero-image rounded-2xl shadow-2xl" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-12 px-6">
+      <div class="container mx-auto">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl md:text-3xl font-bold mb-2">Belajar Jadi Lebih Seru dan Terarah!</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Semua yang kamu butuhkan untuk belajar ada di BANBAN</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="card"> 
+            <div class="icon">👥</div>
+            <h3 class="font-semibold text-lg">Belajar Berkelompok</h3>
+          </div>
+          <div class="card">
+            <div class="icon">⏱️</div>
+            <h3 class="font-semibold text-lg">Fokus Timer</h3>
+          </div>
+          <div class="card md:col-span-2">
+            <div class="icon">🏆</div>
+            <h3 class="font-semibold text-lg">Prestasi</h3>
+          </div>
+          <div class="card">
+            <div class="icon">📚</div>
+            <h3 class="font-semibold text-lg">Materi</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trophies -->
+    <section class="bg-orange-400 py-12 px-6">
+      <div class="container mx-auto text-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">Get Quality Education</h2>
+        <p class="text-white/90 mb-8 max-w-2xl mx-auto">Problem trying to resolve the conflict between the two major realms of classical physics.</p>
+
+        <div class="flex justify-center gap-8">
+          <div class="trophy first">1st Place</div>
+          <div class="trophy second">2nd Place</div>
+          <div class="trophy third">3rd Place</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials (short) -->
+    <section class="py-12 px-6">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p class="text-gray-600 mb-4 text-sm">Some people say you need to work hard to reach your financial goals for the month and year.</p>
+            <div class="flex items-center">
+              <img src="https://placehold.co/40x40/gray/white?text=User" alt="User" class="w-10 h-10 rounded-full mr-2" />
+              <div>
+                <h4 class="font-semibold text-sm">Hendry Wijaya</h4>
+                <p class="text-xs text-gray-500">Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- duplicates for layout -->
+          <div class="testimonial">...</div>
+          <div class="testimonial">...</div>
+          <div class="testimonial">...</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 px-6">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="font-bold mb-4">Navigate</h3>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Features</h3>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Resources</h3>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Get in Touch</h3>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-700 mt-8 pt-4 text-center text-sm">All Rights Reserved</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
